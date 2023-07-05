@@ -1,0 +1,80 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.join {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.create {
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.message-box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    min-height: 100vh; /* Change height to min-height */
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: stretch;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden; /* Hide overflow initially */
+  }
+  
+.messages {
+overflow-y: auto; /* Enable vertical scrolling */
+flex: 1;
+width: 100%;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column; /* Remove 'column-reverse' */
+}
+
+.inputs {
+display: flex;
+flex-direction: column;
+}
+
+#message {
+flex: 1;
+margin-bottom: 10px;
+}
+
+.text {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+position: relative;
+}
+
+.muted {
+font-size: 10px;
+color: darkgray;
+}
+  

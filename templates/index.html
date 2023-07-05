@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %} 
+<form method="post" class="start-form">
+    <h3>ENTER THE CHATROOM</h3>
+    <div>
+        <label>Name: </label>
+        <input type="text" name="name" placeholder="anonymous" value="{{name}}">
+    </div>
+    <div class="join">
+        <!-- Make a input for room code and a submit button  -->
+        <input type="text" name="code" placeholder="room code" value="{{room}}">
+        <button type="submit" name="join">JOIN</button>
+
+        <!-- Create a room button with name Create -->
+    </div>
+    <button type="submit" name="create" class="create">Create a room</button>
+
+    <!-- Display the error message if there is any -->
+    {% if error %}
+    <ul>
+        <li class="error">{{ error }}</li>
+    </ul>
+    {% endif %}
+</form>
+{% endblock %}
