@@ -4,9 +4,11 @@ A Chatroom made with flask and python, to provide anonymity while talking online
 ## A INTRODUCTION
 This is in beta for now...
 
-Chatroom is well a chatroom's website where you can create and join private chatroom's 
-It's perfect to plan terrorist attacks as the chatroom and the chats get deleted after everyone leaves 
-: )
+Chatroom is well a chatroom's website where you can create and join private chatroom's
+
+
+***It's perfect to plan terrorist attacks as the chatroom and the chats get deleted after everyone leaves 
+: )***
 
 *note: does not work well for mobile for now*
 # HOW TO USE
